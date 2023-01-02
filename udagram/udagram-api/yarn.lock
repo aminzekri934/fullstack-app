@@ -86,7 +86,7 @@
   "resolved" "https://registry.npmjs.org/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz"
   "version" "1.0.0"
 
-"@types/express-serve-static-core@*", "@types/express-serve-static-core@^4.17.31":
+"@types/express-serve-static-core@^4.17.31":
   "integrity" "sha512-aI5h/VOkxOF2Z1saPy0Zsxs5avets/iaiAJYznQFm5By/pamU31xWKL//epiF4OfUA2qTOc9PV6tCUjhO8wlZA=="
   "resolved" "https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.17.32.tgz"
   "version" "4.17.32"
@@ -147,10 +147,10 @@
   "resolved" "https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.3.tgz"
   "version" "1.2.3"
 
-"@types/sequelize@^4.27.44":
-  "integrity" "sha512-GrM7/rxosbskkToSORCona1D1YMJcJ9O9gCSlobr0hdFn6v0QyvMD/2YRVO/lRXrqHVRFwtZkf0mO0BBbyspEw=="
-  "resolved" "https://registry.npmjs.org/@types/sequelize/-/sequelize-4.27.44.tgz"
-  "version" "4.27.44"
+"@types/sequelize@^4.28.14":
+  "integrity" "sha512-O8lTJ8YPVVaoY9xjduchDlo0MOS3w262pro2H1QMuFIo/kc/p1elP/UxLOTP2wcVO2cFd6Gvghg9ZSAiJi0GLA=="
+  "resolved" "https://registry.npmjs.org/@types/sequelize/-/sequelize-4.28.14.tgz"
+  "version" "4.28.14"
   dependencies:
     "@types/bluebird" "*"
     "@types/continuation-local-storage" "*"
@@ -158,12 +158,12 @@
     "@types/validator" "*"
 
 "@types/serve-static@*":
-  "integrity" "sha512-/BZ4QRLpH/bNYgZgwhKEh+5AsboDBcUdlBYgzoLX0fpj3Y2gp6EApyOlM3bK53wQS/OE1SrdSYBAbux2D1528Q=="
-  "resolved" "https://registry.npmjs.org/@types/serve-static/-/serve-static-1.13.2.tgz"
-  "version" "1.13.2"
+  "integrity" "sha512-z5xyF6uh8CbjAu9760KDKsH2FcDxZ2tFCsA4HIMWE6IkiYMXfVoa+4f9KX+FN0ZLsaMw1WNG2ETLA6N+/YA+cg=="
+  "resolved" "https://registry.npmjs.org/@types/serve-static/-/serve-static-1.15.0.tgz"
+  "version" "1.15.0"
   dependencies:
-    "@types/express-serve-static-core" "*"
     "@types/mime" "*"
+    "@types/node" "*"
 
 "@types/strip-bom@^3.0.0":
   "integrity" "sha1-FKjsOVbC6B7bdSB5CuzyHCkK69I="
@@ -183,12 +183,7 @@
     "@types/cookiejar" "*"
     "@types/node" "*"
 
-"@types/validator@*", "@types/validator@^10.11.3":
-  "integrity" "sha512-GKF2VnEkMmEeEGvoo03ocrP9ySMuX1ypKazIYMlsjfslfBMhOAtC5dmEWKdJioW4lJN7MZRS88kalTsVClyQ9w=="
-  "resolved" "https://registry.npmjs.org/@types/validator/-/validator-10.11.3.tgz"
-  "version" "10.11.3"
-
-"@types/validator@^13.7.1":
+"@types/validator@*", "@types/validator@^13.7.1", "@types/validator@^13.7.10":
   "integrity" "sha512-t1yxFAR2n0+VO6hd/FJ9F2uezAZVWHLmpmlJzm1eX03+H7+HsuTAp7L8QJs+2pQCfWkP1+EXsGK9Z9v7o/qPVQ=="
   "resolved" "https://registry.npmjs.org/@types/validator/-/validator-13.7.10.tgz"
   "version" "13.7.10"
