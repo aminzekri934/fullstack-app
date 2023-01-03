@@ -4,6 +4,7 @@ branch-defaults:
     group_suffix: null
   master:
     environment: udagram-api-dev
+    group_suffix: null
 environment-defaults:
   udagram-api-dev:
     branch: null
@@ -11,7 +12,7 @@ environment-defaults:
 global:
   application_name: udagram-api
   branch: null
-  default_ec2_keyname: null
+  default_ec2_keyname: vockey
   default_platform: Node.js
   default_region: us-east-1
   deploy:
