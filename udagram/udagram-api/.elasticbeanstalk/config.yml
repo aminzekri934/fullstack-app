@@ -7,8 +7,8 @@ branch-defaults:
     group_suffix: null
 environment-defaults:
   udagram-api-dev:
-    branch: null
-    repository: null
+    branch: master
+    repository: codecommit-origin
 global:
   application_name: udagram-api
   branch: null
