@@ -62,7 +62,7 @@ PORT
 DB_PORT
 AWS_ACCESS_KEY_ID
 AWS_SECRET_ACCESS_KEY
-
+**git config --global user.email 'aminzekri934@gmail.com' && git config --global user.name 'aminzekri934'**
 # Project setup and dependencies :
  visit documentation folder : Runbook.md
 
