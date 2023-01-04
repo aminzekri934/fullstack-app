@@ -12,7 +12,7 @@
     "dev": "npx ts-node-dev --respawn --transpile-only ./src/server.ts",
     "prod": "npx tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
-    "deploy": "npm run build  && git config --global user.email 'aminzekri934@gmail.com' && git config --global user.name 'aminzekri934' && eb init && eb use udagram-api-dev && git add . && git commit -m 'main' && eb deploy", 
+    "deploy": "npm run build  && git config --global user.email 'aminzekri934@gmail.com' && git config --global user.name 'aminzekri934' && eb init && eb use udagram-api-dev && eb setenv PORT=$PORT USERNAME=$USERNAME && git add . && git commit -m 'main' && eb deploy", 
     "build": "npm install . && npm run clean && tsc && cp -rf src/config www/config && cp -R .elasticbeanstalk www/.elasticbeanstalk && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
