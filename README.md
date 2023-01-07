@@ -47,6 +47,8 @@ The e2e tests are using Protractor and Jasmine.
 ## frontend application link
 
 link: http://aminezekri.s3-website-us-east-1.amazonaws.com
+eb:http://udagram-api-dev.eba-zpk8nuwb.us-east-1.elasticbeanstalk.com/
+db:database-1.cvdzkdh83ldn.eu-central-1.rds.amazonaws.com
 
 # ENVIRONMENT VARIABLES :
 only for backend:
