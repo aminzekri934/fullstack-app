@@ -12,6 +12,5 @@ export URL=http://localhost:8080
 export PORT=8080
 export USERNAME=aminzekri934
 export DB_PORT=5432
-export AWS_ACCESS_KEY_ID=AKIA2PX2OFRZ5G3F5WYJ
-export AWS_SECRET_ACCESS_KEY=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
+
 /*git config --global user.email 'aminzekri934@gmail.com' && git config --global user.name 'aminzekri934'*/
