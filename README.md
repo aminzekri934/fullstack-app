@@ -67,7 +67,7 @@ PORT
 DB_PORT
 AWS_ACCESS_KEY_ID
 AWS_SECRET_ACCESS_KEY
-
+JWT_SECRET
 # Project setup and dependencies :
  visit documentation folder : Runbook.md
 
