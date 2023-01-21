@@ -47,7 +47,7 @@ The e2e tests are using Protractor and Jasmine.
 ## frontend application link
 biuld:"npm run biuld && git config --global user.email 'aminzekri934@gmail.com' && git config --global user.name 'aminzekri934' && eb init && git init && eb use udagram-api-dev && git add . && git commit -m 'main' && eb deploy"
 
-link: http://aminezekri.s3-website-us-east-1.amazonaws.com
+link: http://amine-udagram-frontend.s3-website-us-east-1.amazonaws.com
 eb:http://udagram-api-dev.eba-jr54e4n2.us-east-1.elasticbeanstalk.com/
 db:database-1.c0zc1kddwzyg.us-east-1.rds.amazonaws.com
 
